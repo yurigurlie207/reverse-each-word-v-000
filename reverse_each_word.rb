@@ -2,8 +2,10 @@ def reverse_each_word(sentence)
 
   myArray = sentence.split
 
-  myArray.collect do |word|
+  newArray = myArray.collect do |word|
     word.reverse
   end
+
+  newArray.join
 
 end
