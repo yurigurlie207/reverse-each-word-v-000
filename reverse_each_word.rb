@@ -7,5 +7,3 @@ def reverse_each_word(sentence)
 
   tempArray.join
 end
-
-Hello there, and how are you?
