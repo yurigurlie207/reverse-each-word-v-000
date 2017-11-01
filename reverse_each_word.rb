@@ -6,5 +6,5 @@ def reverse_each_word(sentence)
     tempArray << word.reverse
   end
 
-  tempArray.join
+  tempArray.join(" ")
 end
