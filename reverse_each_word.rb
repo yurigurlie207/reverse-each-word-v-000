@@ -5,6 +5,5 @@ def reverse_each_word(sentence)
   myArray.each do |word|
     tempArray << word.reverse
   end
-
   tempArray.join(" ")
 end
