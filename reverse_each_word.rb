@@ -3,4 +3,3 @@ def reverse_each_word(sentence)
   reversedArray = myArray.reverse
   puts reversedArray.join
 end
-
